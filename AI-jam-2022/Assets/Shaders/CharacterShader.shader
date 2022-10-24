@@ -3,7 +3,7 @@ Shader "Unlit/CharacterShader"
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-        _Stress("Stress", Range(0.0, 1.0)) = 0
+        _Stress("Stress", Range(0.0, 1.0)) = 1
     }
     SubShader
     {
